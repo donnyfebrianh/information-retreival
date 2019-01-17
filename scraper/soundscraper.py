@@ -36,7 +36,7 @@ while True:
 
 
     if choice == 2:
-        name = input("Name artis: ")
+        name = input("Nama artis: ")
         print()
         "%20".join(name.split(" "))
         browser.get(artist_url + name)
